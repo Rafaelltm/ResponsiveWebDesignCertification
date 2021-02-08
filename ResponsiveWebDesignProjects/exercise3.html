@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <header id="header">
+        <style>
+            body {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+            }
+
+            @media(max-width: 500px) {
+                body {
+                    width: 500px;
+                    height: auto;
+                }
+            }
+        </style>
+        <img id="header-img" src="" />
+        <nav id="nav-bar">
+            <a class="nav-link" href="#teste1">teste1</a>
+            <a class="nav-link" href="#teste2" >teste2</a>
+            <a class="nav-link" href="#teste3" >teste3</a>
+        </nav>
+    </header>
+    <body>
+        <div id="teste1"></div>
+        <video id="video" src=""></video>
+        <div id="teste2"></div>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <input id="email" type="email" placeholder="Email" name="email" required />
+            <input type="submit" id="submit" name="submit" />
+        </form>
+        <div id="teste3"></div>
+    </body>
+</html>
