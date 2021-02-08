@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html id="main">
+<header>
+  <title>Rafael Leão</title>
+  <style>
+
+  </style>
+</header>
+
+<body>
+  <div>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">O estudante de Engenharia de Software</p>
+  </div>
+
+  <form id="survey-form">
+    <label id="name-label">Nome:</label>
+    <input placeholder="Nome" id="name" type="text" required />
+
+    <label id="email-label">Email:</label>
+    <input placeholder="Email válido" id="email" type="email" required />
+
+    <label id="number-label">Idade:</label>
+    <input placeholder="Idade" id="number" type="number" min="0" max="100" required />
+
+    <select id="dropdown">
+      <option>Masculino</option>
+      <option>Feminino</option>
+      <option>Não identificar</option>
+    </select>
+
+    <fieldset id="group1">
+      <p>Tem residencia fixa?</p>
+      <label>
+        <input type="radio" name="group1" value="sim" />
+        Sim
+      </label>
+      <label>
+        <input type="radio" name="group1" value="nao" />
+        Não
+      </label>
+      <label>
+        <input type="radio" name="group1" value="asvezes" />
+        As vezes
+      </label>
+    </fieldset>
+
+  </form>
+
+</body>
+
+</html>
