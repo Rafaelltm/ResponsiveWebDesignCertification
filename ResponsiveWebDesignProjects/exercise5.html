@@ -1,10 +1,62 @@
 <!DOCTYPE html>
 <html>
     <header>
+        <style>
+            #navbar {
+                position: fixed;
+                top:0;
+                display: flex;
+                align-items: center;
+                background-color: #eee;
+                color: blue;
+            }
 
+            body {
+                margin-top: 90px;
+            }
+
+            #welcome-section {
+                height: 100vh;
+            }
+
+            @media (max-width: 900px) {
+                body {
+                    background-color: burlywood;
+                }
+            }
+        </style>
+        <title>Rafael Leão Portfolio</title>
     </header>
 
     <body>
-        
+        <nav id="navbar">
+            <a href="#welcome-section">welcome section</a>
+            <a href="#projects">projects</a>
+        </nav>
+
+        <section id="welcome-section">
+            <h1>Bem vindos ao portólio de Rafael Leão</h1>
+            <a id="profile-link" href="https://github.com/Rafaelltm/" target="_blank">Profile link</a>
+        </section>
+
+        <section id="projects">
+            <ul>
+                <li>
+                    <h6 class="project-title">Milena tomos</h6>
+                    <p class="project-description project-tile">Aplicativo desenvolvido para facilitar o trabalho de milena</p>
+                    <a href="#">Milena tomos</a>
+                </li>
+                <li>
+                    <h6 class="project-title">Carteirinha digital abran</h6>
+                    <p class="project-description project-tile">Aplicativo desenvolido para evitar a necessidade de uma carteirinha fisica</p>
+                    <a href="#">Carterinha digital</a>
+                </li>
+                <li>
+                    <h6 class="project-title">e-saude UNB</h6>
+                    <p class="project-description project-tile">Aplicativo desenvolvido na disciplina de MDS</p>
+                    <a href="#">e-saude unb</a>
+                </li>
+            </ul>
+        </section>
     </body>
 </html>
