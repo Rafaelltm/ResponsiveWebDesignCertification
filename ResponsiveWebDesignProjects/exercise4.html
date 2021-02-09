@@ -1,6 +1,22 @@
 <!DOCTYPE html>
 <html>
     <main id="main-doc">
+        <style>
+            @media (max-width: 1440px) {
+                #navbar {
+                    position: fixed;
+                    top: 0;
+                    left: 0;
+                    display: flex;
+                    flex-direction: column;
+                    background-color: #eee;
+                    color: blue;
+                }
+                .main-section {
+                    margin: 70px 0 0 90px;
+                }
+            }
+        </style>
         <nav id="navbar">
             <header>Projeto de numero 4 do curso</header>
             <a href="#section_1" class="nav-link" >section 1</a>
@@ -11,7 +27,7 @@
         </nav>
         <section id="section_1" class="main-section">
             <header>section 1</header>
-            <p>first text</p>
+            <p>first text <code>código</code></p>
             <p>second text</p>
             <a>teste 1</a>
             <div>
@@ -20,21 +36,21 @@
         </section>
         <section id="section_2" class="main-section">
             <header>section 2</header>
-            <p>first text</p>
+            <p>first text <code>código na section 2</code></p>
             <p>second text</p>
             <video src="" ></video>
             <input type="number" />
         </section>
         <section id="section_3" class="main-section">
             <header>section 3</header>
-            <p>first text</p>
+            <p>first text <code>código na section 4-1</code></p>
             <p>second text</p>
             <button>clique-me</button>
             <textarea style="resize: none;"></textarea>
         </section>
         <section id="section_4" class="main-section">
             <header>section 4</header>
-            <p>first text</p>
+            <p>first text <code>código na section 4</code></p>
             <p>second text</p>
             <span>Teste</span>
             <ul>
@@ -47,7 +63,7 @@
         </section>
         <section id="section_5" class="main-section">
             <header>section 5</header>
-            <p>first text</p>
+            <p>first text <code>código na última section</code></p>
             <p>second text</p>
             <fieldset>
                 <input type="text" />
